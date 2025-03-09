@@ -1,0 +1,9 @@
+Flask
+pandas
+nltk
+networkx
+matplotlib
+seaborn
+plotly
+textblob
+
