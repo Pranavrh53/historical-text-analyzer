@@ -7,7 +7,7 @@ Historical Text Analyzer
 The Historical Text Analyzer is a Flask-based web application that enables users to analyze historical texts. It provides sentiment analysis, character network visualization, geospatial mapping, translation, timeline visualization, and more.
 
 ✨ Features
-
+```
 Sentiment Analysis: Detects positive, negative, or neutral sentiments in the text.
 
 Character Network: Identifies key figures and maps relationships.
@@ -23,8 +23,10 @@ Timeline Visualization: Extracts dates and creates an interactive historical tim
 Text Translation: Supports multilingual translation using Google Translator API.
 
 Speech-to-Text: Transcribes audio files using AssemblyAI.
+```
 
 🚀 Installation
+```
 
 Prerequisites
 
@@ -59,8 +61,10 @@ ASSEMBLYAI_API_KEY=your_api_key_here
 python app.py
 
 Then open http://127.0.0.1:5000/ in your browser.
+```
 
 📂 Project Structure
+```
 
 📦 historical-text-analyzer
 ├── 📄 app.py               # Flask backend logic
@@ -71,8 +75,10 @@ Then open http://127.0.0.1:5000/ in your browser.
 ├── 📄 requirements.txt      # Python dependencies
 ├── 📄 .gitignore           # Files to exclude from Git
 └── 📄 README.md            # Project documentation
+```
 
 🛠️ Technologies Used
+```
 
 Backend: Flask (Python)
 
@@ -83,8 +89,10 @@ Data Processing: NLTK, TextBlob, WordCloud, NRCLex
 Geospatial Analysis: Geopy, Folium
 
 Speech-to-Text: AssemblyAI API
+```
 
 📝 Future Improvements
+```
 
 ✅ Support for more historical languages
 
@@ -93,3 +101,4 @@ Speech-to-Text: AssemblyAI API
 ⏳ Integrate a database for saving analysis history
 
 ⏳ Add a REST API for external usage
+```
